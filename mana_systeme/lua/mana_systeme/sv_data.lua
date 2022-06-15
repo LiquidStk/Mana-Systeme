@@ -198,8 +198,8 @@ hook.Add("Think", "ManaHud", function()
             DataTable = util.JSONToTable( loadData )
         end
 
-        v:SetNWInt("Mana", DataTable[3])
-        v:SetNWInt("MaxMana", DataTable[2])
+        v:SetNWInt("Mana", math.Round(DataTable[3]))
+        v:SetNWInt("MaxMana", math.Round(DataTable[2]))
 
     end
 end)
