@@ -18,15 +18,15 @@ __Remove Mana__ :
 
 __Get Mana Max__ :
 
--- Fonction "cl" pour get le mana max : LocalPlayer():GetNWInt("MaxMana")
+-- Fonction "cl" pour get le mana max : ply:GetNWInt("MaxMana")
 
--- "cl" function to get max mana: LocalPlayer():GetNWInt("MaxMana")
+-- "cl" function to get max mana: ply:GetNWInt("MaxMana")
 
 __Get Mana__ :
 
--- Fonction "cl" pour get le mana : LocalPlayer():GetNWInt("Mana") 
+-- Fonction "cl" pour get le mana : ply:GetNWInt("Mana") 
 
--- "cl" function to get mana: LocalPlayer():GetNWInt("Mana")
+-- "cl" function to get mana: ply:GetNWInt("Mana")
 
 -------------------------------------------------------------
 
