@@ -62,10 +62,12 @@ end
 -- fonts --
 
 if CLIENT then 
+    
+    local font_mana = "I Love Salmon"
 
     surface.CreateFont("font_LiquidMana", {
 
-        font = "I Love Salmon",
+        font = font_mana,
         size = W(25),
         weight = 200,
         antialias = true
@@ -73,7 +75,7 @@ if CLIENT then
 
     surface.CreateFont("font_LiquidMana1", {
 
-        font = "I Love Salmon",
+        font = font_mana,
         size = W(40),
         weight = 200,
         antialias = true
@@ -81,7 +83,7 @@ if CLIENT then
 
     surface.CreateFont("font_LiquidMana2", {
 
-        font = "I Love Salmon",
+        font = font_mana,
         size = W(55),
         weight = 200,
         antialias = true
@@ -89,7 +91,7 @@ if CLIENT then
 
     surface.CreateFont("font_LiquidMana3", {
 
-        font = "I Love Salmon",
+        font = font_mana,
         size = W(16),
         weight = 200,
         antialias = true
@@ -97,7 +99,7 @@ if CLIENT then
 
     surface.CreateFont("font_LiquidMana4", {
 
-        font = "I Love Salmon",
+        font = font_mana,
         size = W(20),
         weight = 200,
         antialias = true
